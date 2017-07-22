@@ -1,0 +1,22 @@
+@import './Config.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: $font--primary;
+  font-weight: 300;
+  background-color: $color--dark;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  min-height: 100vh;
+}
