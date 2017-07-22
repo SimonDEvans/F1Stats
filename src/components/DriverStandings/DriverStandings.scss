@@ -1,42 +1,13 @@
 @import '../../css/Config.scss';
 
-.wrapper {
-    display: flex;
-    
-    &__left,
-    &__right {
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0;
-    }
+.driver-standings__list {
+    margin: 50px;
+    border-collapse: collapse;
 
-    &__left {
-        width: calc(100% - 350px);
-
-        @media screen and (max-width: 800px) {
-            width: calc(100% - 250px);
-        }
-
-        @media screen and (max-width: 600px) {
-            width: calc(100% - 150px);
+    tr {
+        td {
+            padding: 15px;
+            border: 1px solid #eee;
         }
     }
-
-    &__right {
-        width: 350px;
-
-        @media screen and (max-width: 800px) {
-            width: 250px;
-        }
-
-        @media screen and (max-width: 600px) {
-            width: 150px
-        }
-    }
-}
-
-.colour-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    list-style: none;
 }

@@ -8,7 +8,7 @@ class Base extends Component {
     return (
       <div>
         <Navigation />
-        <Link to='/DriverStandings'><div>Click me for driver standings</div></Link>
+        <Link to='/DriverStandings'><div>Driver standings</div></Link>
       </div>
     )
   }
